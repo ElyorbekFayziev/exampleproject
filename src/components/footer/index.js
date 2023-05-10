@@ -17,28 +17,28 @@ export function Footer() {
             width={137}
             height={23}
           />
-          <p className="text_f">
+          <p className="text_f none">
             We are one of the leading interior design and remodeling studios
             available for all of your residential and commercial interior design
             needs.
           </p>
-          <p className="text_f">© 2023 id Studio. All Rights Reserved.</p>
+          <p className="text_f bottom">© 2023 id Studio. All Rights Reserved.</p>
         </div>
         <div className="container_f">
-          <p className="btext_f">Navigation</p>
-          <a href="#about" className="mtext_f">
+          <p className="btext_f none">Navigation</p>
+          <a href="#about" className="mtext_f none">
             About
           </a>
-          <a href="#services" className="mtext_f">
+          <a href="#services" className="mtext_f none">
             Services
           </a>
-          <a href="#portfolio" className="mtext_f">
+          <a href="#portfolio" className="mtext_f none">
             Portfolio
           </a>
-          <a href="#pricing" className="mtext_f">
+          <a href="#pricing" className="mtext_f none">
             Pricing
           </a>
-          <a href="#testemonials" className="mtext_f">
+          <a href="#testemonials" className="mtext_f none">
             Testemonials
           </a>
           <div className="wicon_f">
