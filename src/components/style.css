@@ -865,14 +865,15 @@
     width: 200px;
     margin-left: 10px;
   }
+  /*-------------------------------------- Footer  ------------------------------------*/
   .none {
     display: none;
   }
   .wrap_f {
     justify-content: center;
     align-items: center;
-    width: 200%;
-    /* max-width: 280px; */
+    width: 100%;
+    max-width: 1000px;
     height: 500px;
     flex-direction: column;
   }
@@ -1123,7 +1124,7 @@
     gap: 60px;
     align-items: center;
     justify-content: center;
-    margin-left: 200px;
+    margin-left:150px;
   }
   .texts_call {
     margin: 0 0 0 0;
@@ -1133,14 +1134,15 @@
     width: 200px;
     margin-left: 10px;
   }
+    /*-------------------------------------- Footer  ------------------------------------*/
   .none {
     display: none;
   }
   .wrap_f {
     justify-content: center;
     align-items: center;
-    width: 200%;
-    /* max-width: 280px; */
+    width: 100%;
+    max-width:700px;
     height: 500px;
     flex-direction: column;
   }
@@ -1400,14 +1402,15 @@
     width: 400px;
     margin-left: 10px;
   }
+  /*-------------------------------------- Footer  ------------------------------------*/
   .none {
     display: none;
   }
   .wrap_f {
     justify-content: center;
     align-items: center;
-    width: 200%;
-    /* max-width: 280px; */
+    width: 100%;
+    max-width: 480px;
     height: 500px;
     flex-direction: column;
   }
@@ -1665,14 +1668,54 @@
     width: 300px;
     margin-left: 10px;
   }
+  /*-------------------------------------- Footer  ------------------------------------*/
   .none {
     display: none;
   }
   .wrap_f {
     justify-content: center;
     align-items: center;
-    width: 200%;
-    /* max-width: 280px; */
+    width: 100%;
+    max-width: 380px;
+    height: 500px;
+    flex-direction: column;
+  }
+  .container_f {
+    width: 100%;
+    height: fit-content;
+  }
+  .container_f:nth-child(1) {
+    margin: 0;
+  }
+  .container_f:nth-child(3) {
+    margin: 0;
+    margin-bottom: 150px;
+  }
+  .text_f {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .bottom {
+    position: absolute;
+    left: 40px;
+    bottom: -50px;
+  }
+  .img_f {
+    margin: 0 0 0 -40px;
+  }
+  .wicon_f {
+    margin-top: -40px;
+    margin-left: 240px;
+  }
+  .none {
+    display: none;
+  }
+  .wrap_f {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
     height: 500px;
     flex-direction: column;
   }
