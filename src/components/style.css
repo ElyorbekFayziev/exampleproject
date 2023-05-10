@@ -634,7 +634,7 @@
 </div> */
 
 @media screen and (max-width: 1000px) {
-  .containernav{
+  .containernav {
     display: none;
   }
   .content_head {
@@ -760,6 +760,7 @@
     margin: 0;
     padding: 0 0 0 0;
     height: 1200px;
+    display: none;
   }
   .text_p {
     font-weight: 700;
@@ -796,6 +797,7 @@
     height: fit-content;
     padding: -920px 0 0 0;
     margin-left: 360px;
+    margin-top: -100px;
   }
   .wcard_pr {
     margin-top: -50px;
@@ -874,7 +876,7 @@
     height: 500px;
     flex-direction: column;
   }
-  .container_f{
+  .container_f {
     width: 100%;
     height: fit-content;
   }
@@ -890,22 +892,22 @@
     font-size: 16px;
     line-height: 150%;
   }
-  .bottom{
+  .bottom {
     position: absolute;
     left: 40px;
     bottom: -50px;
   }
-  .img_f{
+  .img_f {
     margin: 0 0 0 -40px;
   }
-  .wicon_f{
-    margin-top:-40px;
+  .wicon_f {
+    margin-top: -40px;
     margin-left: 240px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .containernav{
+  .containernav {
     display: none;
   }
   .content_head {
@@ -1026,6 +1028,7 @@
     max-width: 700px;
     margin: 0;
     padding: 0;
+    display: none;
   }
   .text_p {
     font-weight: 700;
@@ -1062,6 +1065,7 @@
     height: fit-content;
     padding: -920px 0 0 0;
     margin-left: 200px;
+    margin-top: -120px;
   }
   .wcard_pr {
     margin-top: -50px;
@@ -1140,7 +1144,7 @@
     height: 500px;
     flex-direction: column;
   }
-  .container_f{
+  .container_f {
     width: 100%;
     height: fit-content;
   }
@@ -1156,22 +1160,22 @@
     font-size: 16px;
     line-height: 150%;
   }
-  .bottom{
+  .bottom {
     position: absolute;
     left: 40px;
     bottom: -50px;
   }
-  .img_f{
+  .img_f {
     margin: 0 0 0 -40px;
   }
-  .wicon_f{
-    margin-top:-40px;
+  .wicon_f {
+    margin-top: -40px;
     margin-left: 240px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .containernav{
+  .containernav {
     display: none;
   }
   .content_head {
@@ -1290,6 +1294,7 @@
     max-width: 480px;
     margin: 0;
     padding: 0;
+    display: none;
   }
   .text_p {
     font-weight: 700;
@@ -1326,6 +1331,7 @@
     height: fit-content;
     padding: -920px 0 0 0;
     margin-left: 110px;
+    margin-top: -150px;
   }
   .wcard_pr {
     margin-top: -50px;
@@ -1405,7 +1411,7 @@
     height: 500px;
     flex-direction: column;
   }
-  .container_f{
+  .container_f {
     width: 100%;
     height: fit-content;
   }
@@ -1421,22 +1427,22 @@
     font-size: 16px;
     line-height: 150%;
   }
-  .bottom{
+  .bottom {
     position: absolute;
     left: 40px;
     bottom: -50px;
   }
-  .img_f{
+  .img_f {
     margin: 0 0 0 -40px;
   }
-  .wicon_f{
-    margin-top:-40px;
+  .wicon_f {
+    margin-top: -40px;
     margin-left: 240px;
   }
 }
 
 @media screen and (max-width: 380px) {
-  .containernav{
+  .containernav {
     display: none;
   }
   .content_head {
@@ -1553,6 +1559,7 @@
     max-width: 380px;
     margin: 0;
     padding: 0;
+    display: none;
   }
   .text_p {
     font-weight: 700;
@@ -1589,6 +1596,7 @@
     height: fit-content;
     padding: -920px 0 0 0;
     margin-left: 40px;
+    margin-top: -150px;
   }
   .wcard_pr {
     margin-top: -50px;
@@ -1699,7 +1707,7 @@
 }
 
 @media screen and (max-width: 280px) {
-  .containernav{
+  .containernav {
     display: none;
   }
   .content_head {
@@ -1726,6 +1734,7 @@
   }
   .textswrap_head {
     gap: 21px;
+    margin-left: 150px;
   }
   .button_head {
     width: 90%;
@@ -1816,6 +1825,7 @@
     max-width: 280px;
     margin: 0;
     padding: 0;
+    display: none;
   }
   .text_p {
     font-weight: 700;
@@ -1829,10 +1839,19 @@
     padding: 0;
     gap: 18px;
   }
+  .wimg_p{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .cimg_p {
+    margin: 450px 0 0 0;
+    display: flex;
     flex-direction: column;
     gap: 18px;
-    margin: 450px 0 0 0;
+    align-items: center;
+    justify-content: center;
+    display: none;
   }
   .cimg_p:nth-child(2) {
     display: none;
@@ -1849,6 +1868,7 @@
     max-width: 280px;
     height: 1800px;
     padding: -920px 0 0 0;
+    margin-top: -400px;
   }
   .wcard_pr {
     margin-top: -50px;
